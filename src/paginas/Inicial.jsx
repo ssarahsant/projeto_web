@@ -6,6 +6,7 @@ import estilos from './Inicial.module.css'
 import { Cabecalho } from '../componentes/Cabecalho' 
 import { Lateral } from '../componentes/Lateral'
 import { Conteudo } from '../componentes/Conteudo'
+import { Lista } from './Lista'
 
 
 // através do module se pré define um style sheet
@@ -24,7 +25,7 @@ export function Inicial() {
       <div className={estilos.gridConteiner}>
         <Cabecalho/>
         <Lateral/>
-        <Conteudo/>
+        <Lista/>
       </div>
   )
 }

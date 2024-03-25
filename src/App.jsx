@@ -1,6 +1,8 @@
 // impotação dos componentes que irá estruturar a pagina
 import { Inicial } from './paginas/Inicial'
 import './global.css'
+import { List } from '@phosphor-icons/react/dist/ssr'
+import { Lista } from './paginas/Lista'
 
 // através do module se pré define um style sheet
 // seprando o arquivo de estilização e importa em formato de objeto e suas classes

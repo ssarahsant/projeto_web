@@ -11,4 +11,5 @@
     para aumentar o tamanho do texto, basta duplicar o valor no mesmo formato rem */ 
     font-size:  2rem;
     color: var(--cinza-claro);
+    padding: 20px;
 }
