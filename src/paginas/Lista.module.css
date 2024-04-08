@@ -1,5 +1,11 @@
 .conteiner {
     display: flex;
-    padding: 10px;
     background-color: #ffff;
+    /* quebra a linha quando a página chega ao final */
+    flex-flow: row wrap;
+    /* distribui o espaço entre os elemento da lista igualmente */ 
+    justify-content: space-between;
+    /* arruma card de tamanho diferentes para igualar */
+    align-items: stretch;
+    padding: 5px;
 }
