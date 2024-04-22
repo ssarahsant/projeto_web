@@ -3,6 +3,7 @@ import { Inicial } from './paginas/Inicial'
 import './global.css'
 import { List } from '@phosphor-icons/react/dist/ssr'
 import { Lista } from './paginas/Lista'
+import { Perfil } from './paginas/Perfil'
 
 // através do module se pré define um style sheet
 // seprando o arquivo de estilização e importa em formato de objeto e suas classes
@@ -14,7 +15,7 @@ export function App() {
 
   // quando a referencia é por tag não precisa passar o estilo
   return (
-        <Inicial/>
+        <Perfil/>
   )
 }
 

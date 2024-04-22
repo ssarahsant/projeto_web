@@ -7,6 +7,7 @@ import { Cabecalho } from '../componentes/Cabecalho'
 import { Lateral } from '../componentes/Lateral'
 import { Conteudo } from '../componentes/Conteudo'
 import { Lista } from './Lista'
+import { Login } from './Login'
 
 
 // através do module se pré define um style sheet
