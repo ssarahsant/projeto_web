@@ -52,6 +52,7 @@ export function Perfil(){
     // && funciona como então no if para aplicar uma funcionalidade
     return(
         <div className={estilos.conteiner}>
+            <p className={estilos.titulo}>PERFIL</p>
  
             <form className={estilos.formulario}
             onSubmit={handleSubmit(obterDadosFormulario)}

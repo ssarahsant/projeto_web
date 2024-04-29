@@ -4,7 +4,8 @@
 para reaproveitar a estilização posteriormente*/
 /* desse modo toda vez que for utiliza a cor definida */
 :root {
-    --cinza-claro: #dcdcdd;
+    --cinza-escuro: #e0e0e2;
+    --cinza-claro: #cccccc;
     --roxo-escuro: #4d0a55;
     --roxo-claro: #ab10bc
 }

@@ -1,23 +1,23 @@
 import { useState } from 'react'
 import estilos from './Login.module.css'
- 
+// importação do componente que faz parte da biblioteca router
+import { useNavigate } from 'react-router-dom'
+
 export function Login(){
     // criação de state, internamente é um get e um set que faz a função de letiura
     // e alteração (a forma de alteração necessita do pre fixo set)
     const [usuario, setUsuario] = useState('')
     const [senha, setSenha] = useState('')
 
-    // função de manipulação dos valores inseridos no formulário
-    function obterDadosFormulario(e) { 
-        e.preventDefault()
-        // temporário (porque os dados não estão sendo mandados para nenhum lugar, 
-        //função que seia do action (que envia informações quando ocorre um submit), 
-        // isso segura o compotamento padrão do formulário) impede o envio das informações
-        // bloquando po refresh e possibilitando ver o console log
-        console.log(`Usuário: ${usuario}`)
-        console.log(`Senha: ${senha}`)
+    // utilização do componente que será responsavel por chmar rota
+    // nesse exeplo, sem a existencia de validação, somente da o acesso a tela incial
+    const navigate = useNavigate()
+
+    // função de validação de login e chamada da rota 
+    function obterDadosFormulario() { 
+        navigate('inicial')
     } 
-    
+    // a cada caminho, existe o componente equivalente
     //vinculando os componentes com s states atraves dp value (para que no input mostre o que tem armazenado no state
     // e cada input que existir no campo, será inserido dentro do state)
     // essa dinamica ocorre dentro de uma função usando o recurso do html de evento (abreviado pela letra E)

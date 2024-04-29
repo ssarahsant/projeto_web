@@ -8,6 +8,7 @@ import { Lateral } from '../componentes/Lateral'
 import { Conteudo } from '../componentes/Conteudo'
 import { Lista } from './Lista'
 import { Login } from './Login'
+import { Outlet } from 'react-router-dom'
 
 
 // através do module se pré define um style sheet
@@ -26,7 +27,7 @@ export function Inicial() {
       <div className={estilos.gridConteiner}>
         <Cabecalho/>
         <Lateral/>
-        <Lista/>
+        <Outlet/>
       </div>
   )
 }
