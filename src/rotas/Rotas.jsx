@@ -20,8 +20,9 @@ export function Rotas() {
             <Route path='/inicial' element={<Inicial/>}>
                 <Route index element={<Lista/>}/>
                 <Route path='perfil' element={<Perfil/>}/>
+                <Route path='sobre' element={<Sobre/>}/>
             </Route>
-            <Route path='sobre' element={<Sobre/>}/>
+            
         </Routes>
     )
 }

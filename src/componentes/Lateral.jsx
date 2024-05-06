@@ -29,7 +29,7 @@ export function Lateral () {
             <section>
                 <Link
                 className={estilos.botao}
-                to='/inical'>
+                to='/inicial'>
                     Filmes
                 </Link>
 
