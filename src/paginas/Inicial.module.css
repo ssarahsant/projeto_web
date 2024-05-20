@@ -1,7 +1,7 @@
 /* Mapeia a Tela*/
 .gridConteiner {
     /* abre espaço entre as linhas e colunas  */
-    gap: 3px; 
+    gap: 5px; 
 
     display: grid;
     /* Usar o Vh que é a forma de definir a altura de forma mais precisa*/
@@ -14,7 +14,7 @@
     grid-template-columns: 250px 1fr;
     /* quantidade de linhas e tamanho das mesmas
     fr ou 1 fração é o resto */
-    grid-template-rows: 100px 1fr;
+    grid-template-rows: 8px 1fr;
 
     /* no total são duas linhas e duas colunas */ 
 

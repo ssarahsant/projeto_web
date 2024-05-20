@@ -5,9 +5,6 @@
 import estilos from './Inicial.module.css'
 import { Cabecalho } from '../componentes/Cabecalho' 
 import { Lateral } from '../componentes/Lateral'
-import { Conteudo } from '../componentes/Conteudo'
-import { Lista } from './Lista'
-import { Login } from './Login'
 import { Outlet } from 'react-router-dom'
 
 

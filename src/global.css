@@ -6,8 +6,9 @@ para reaproveitar a estilização posteriormente*/
 :root {
     --cinza-escuro: #e0e0e2;
     --cinza-claro: #cccccc;
-    --roxo-escuro: #4d0a55;
-    --roxo-claro: #ab10bc
+    --roxo-escuro: #1e2749;
+    --roxo-claro: #8ecae6;
+    --branco: #ffffff;
 }
 
 /* Zerando a pré-formatação do navegador*/

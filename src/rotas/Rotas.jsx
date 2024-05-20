@@ -6,7 +6,6 @@ import { Login } from '../paginas/Login'
 import { Inicial } from '../paginas/Inicial'
 import { Perfil } from '../paginas/Perfil'
 import { Lista } from '../paginas/Lista'
-import { Sobre } from '../paginas/Sobre'
 
 //para criar a rota usa-se a barra (/) para separra cada caminho e o servidor
 // utlizando duas props: path (caminho) e element (elemento)
@@ -20,7 +19,6 @@ export function Rotas() {
             <Route path='/inicial' element={<Inicial/>}>
                 <Route index element={<Lista/>}/>
                 <Route path='perfil' element={<Perfil/>}/>
-                <Route path='sobre' element={<Sobre/>}/>
             </Route>
             
         </Routes>
